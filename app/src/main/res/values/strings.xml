@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="first_question">How much is 3 x 4?</string>
+    <string name="second_question">Which of these animals is a dog?</string>
+    <string name="animal_img">animal_img</string>
+    <string name="third_question">What is the name of the Android 5.0 Version?</string>
+    <string name="ics_version" translatable="false">Ice Cream Sandwich</string>
+    <string name="lollipop" translatable="false">Lollipop</string>
+    <string name="gb_version" translatable="false">Gingerbread</string>
+    <string name="fourth_question">Which of the following operations are correct?</string>
+    <string name="first_operation" translatable="false">64 / 8 = 8</string>
+    <string name="second_operation" translatable="false">3 - 20 = 17</string>
+    <string name="third_operation" translatable="false">7 x 12 = 84</string>
+    <string name="submit">Submit</string>
+    <string name="please_answer_first">Please answer the operation</string>
+    <string name="please_answer_second">Please select an animal</string>
+    <string name="please_answer_third">Please select an Android Version</string>
+    <string name="please_answer_fourth">Please choose an operation</string>
+    <string name="correct_answers">You answered all right!\nCongratulations :D</string>
+    <string name="try_again_msg">You miss something, try again :)</string>
+    <string name="results">Results</string>
+    <string name="uhraa">YEI!</string>
+    <string name="retry">Retry</string>
+    <string name="first_question_correct_answer" translatable="false">12</string>
+    <string name="number_of_correct_answers">Correct Answers %d</string>
+</resources>

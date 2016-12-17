@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gorrotowi.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/style_wrap"
+            android:text="@string/first_question" />
+
+        <EditText
+            android:id="@+id/edtxtMathQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/style_wrap"
+            android:layout_marginTop="@dimen/top_form_margin"
+            android:text="@string/second_question" />
+
+        <RadioGroup
+            android:id="@+id/rdGAnimals"
+            style="@style/style_rg_animals">
+
+            <LinearLayout style="@style/style_item_animal">
+
+                <ImageView
+                    style="@style/style_img_item"
+                    android:contentDescription="@string/animal_img"
+                    android:src="@drawable/dog" />
+
+                <RadioButton
+                    android:id="@+id/rdAnimalsOne"
+                    style="@style/style_item_rdb" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_item_animal">
+
+                <ImageView
+                    style="@style/style_img_item"
+                    android:contentDescription="@string/animal_img"
+                    android:src="@drawable/cat" />
+
+                <RadioButton
+                    android:id="@+id/rdAnimalsTwo"
+                    style="@style/style_item_rdb" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_item_animal">
+
+                <ImageView
+                    style="@style/style_img_item"
+                    android:contentDescription="@string/animal_img"
+                    android:src="@drawable/cow" />
+
+                <RadioButton
+                    android:id="@+id/rdAnimalsThree"
+                    style="@style/style_item_rdb" />
+
+            </LinearLayout>
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/style_wrap"
+            android:layout_marginTop="@dimen/top_form_margin"
+            android:text="@string/third_question" />
+
+        <RadioGroup
+            android:id="@+id/rdGVersions"
+            style="@style/style_rg_versions">
+
+            <RadioButton
+                android:id="@+id/rdVersionsOne"
+                style="@style/style_wrap"
+                android:text="@string/ics_version" />
+
+            <RadioButton
+                android:id="@+id/rdVersionsTwo"
+                style="@style/style_wrap"
+                android:text="@string/lollipop" />
+
+            <RadioButton
+                android:id="@+id/rdVersionsThree"
+                style="@style/style_wrap"
+                android:text="@string/gb_version" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/style_wrap"
+            android:layout_marginTop="@dimen/top_form_margin"
+            android:text="@string/fourth_question" />
+
+        <CheckBox
+            android:id="@+id/cbxFirst"
+            style="@style/style_wrap"
+            android:text="@string/first_operation" />
+
+        <CheckBox
+            android:id="@+id/cbxSecond"
+            style="@style/style_wrap"
+            android:text="@string/second_operation" />
+
+        <CheckBox
+            android:id="@+id/cbxThird"
+            style="@style/style_wrap"
+            android:text="@string/third_operation" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:onClick="submitAnswers"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+
+</ScrollView>

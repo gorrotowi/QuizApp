@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="animal_img">imagen animal</string>
+    <string name="correct_answers">Contestaste todo correctamente!\nFelicidades! :D</string>
+    <string name="first_question">¿Cuánto es 3 x 4?</string>
+    <string name="fourth_question">¿Cuál de las siguientes operaciones son correctas?</string>
+    <string name="please_answer_first">Por favor contesta la operación</string>
+    <string name="please_answer_fourth">Por favor escoje una operación</string>
+    <string name="please_answer_second">Por favor selecciona un animal</string>
+    <string name="please_answer_third">Por favor selecciona una Versión de Android</string>
+    <string name="results">Resultados</string>
+    <string name="retry">Intentar de nuevo</string>
+    <string name="second_question">¿Cuál de estos animales es un perro?</string>
+    <string name="submit">Calificar</string>
+    <string name="third_question">Cual es el nombre de la Versión 5.0 de Android?</string>
+    <string name="try_again_msg">Fallaste en algo, intenta nuevamente :)</string>
+    <string name="uhraa">YEI!</string>
+    <string name="number_of_correct_answers">Respuestas correctas %d</string>
+</resources>
