@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.cbxThird)
     CheckBox cbxThird;
 
-    int correctAnswers = 0;
+    int correctAnswers;
 
     CompoundButton.OnCheckedChangeListener listenerOne;
     CompoundButton.OnCheckedChangeListener listenerTwo;
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void submitAnswers(View v) {
         if (allIsReply()) {
-            if (edtxtMathQ.getText().toString().equals(getString(R.string.first_question_correct_answer))) {
+            if (edtxtMathQ.getText().toString().trim().equals(getString(R.string.first_question_correct_answer))) {
                 correctAnswers++;
             }
             if (rdAnimalsOne.isChecked()) {
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             if (rdGVersions.getCheckedRadioButtonId() == R.id.rdVersionsTwo) {
                 correctAnswers++;
             }
-            if (cbxFirst.isChecked() && cbxThird.isChecked()) {
+            if (cbxFirst.isChecked() && cbxThird.isChecked() && !cbxSecond.isChecked()) {
                 correctAnswers++;
             }
 
